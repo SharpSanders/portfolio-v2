@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Trevyn Sanders — self-taught developer building toward full-stack + AI by May 2026. Projects in HTML, CSS, and JavaScript." />
+  <title>Trevyn Sanders | Portfolio</title>
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#projects">Skip to projects</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark">TS</span>
+        <span class="brand-text">Trevyn Sanders</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="https://github.com/SharpSanders" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">Self-taught developer • Building toward Full-Stack + AI by May 2026</p>
+          <h1 class="headline">
+            I build clean, responsive interfaces and interactive web apps with
+            <span class="accent">HTML, CSS, and JavaScript</span>.
+          </h1>
+          <p class="subhead">
+            I’m sharpening fundamentals, shipping projects, and leveling up into React + backend.
+            Co-founder of Better Endeavors L.L.C.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn secondary" href="#contact">Contact</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="pill">Remote-ready</div>
+            <div class="pill">Freelance-focused</div>
+            <div class="pill">Better Endeavors L.L.C.</div>
+          </div>
+        </div>
+
+        <div class="hero-card" role="region" aria-label="Quick highlights">
+          <div class="hero-card-inner">
+            <h2 class="card-title">Highlights</h2>
+            <ul class="bullets">
+              <li>24+ repos shipped on GitHub</li>
+              <li>GitHub Pages deployments + polished READMEs</li>
+              <li>Projects: games, tools, calculators, converters</li>
+            </ul>
+            <div class="hero-links">
+              <a class="link" href="https://sharpsanders.github.io/personal-portfolio-webpage/" target="_blank" rel="noreferrer">Portfolio v1</a>
+              <a class="link" href="https://github.com/SharpSanders" target="_blank" rel="noreferrer">GitHub Profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">
+              Curated selection of my best work. Each project includes a live demo + repo.
+            </p>
+          </div>
+
+          <div class="controls">
+            <label class="search">
+              <span class="sr-only">Search projects</span>
+              <input id="searchInput" type="search" placeholder="Search projects (e.g., localStorage, game, converter)" />
+            </label>
+            <select id="tagSelect" aria-label="Filter by tag">
+              <option value="all">All tags</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="projectsGrid" class="grid" aria-live="polite"></div>
+
+        <div class="section-foot">
+          <a class="btn secondary" href="https://github.com/SharpSanders?tab=repositories" target="_blank" rel="noreferrer">
+            View All Repositories
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-subtitle">Core frontend fundamentals with consistent project shipping.</p>
+
+        <div class="skill-grid">
+          <div class="skill-card">
+            <h3>Frontend</h3>
+            <ul>
+              <li>Semantic HTML5</li>
+              <li>Responsive CSS (Flexbox/Grid)</li>
+              <li>Vanilla JavaScript (DOM, events)</li>
+              <li>Forms + validation</li>
+              <li>localStorage</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Workflow</h3>
+            <ul>
+              <li>Git + GitHub</li>
+              <li>GitHub Pages deployments</li>
+              <li>Readable documentation (README)</li>
+              <li>Clean folder structure</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Next Up</h3>
+            <ul>
+              <li>React</li>
+              <li>Node/Express APIs</li>
+              <li>Database + auth</li>
+              <li>AI integration (OpenAI API)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROADMAP -->
+    <section id="roadmap" class="section">
+      <div class="container">
+        <h2 class="section-title">Roadmap</h2>
+        <p class="section-subtitle">Execution-focused path toward full-stack + AI specialization.</p>
+
+        <ol class="timeline">
+          <li>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <h3>Now: Portfolio v2 + polish</h3>
+              <p>Keep the projects curated, fast, and easy to scan. Build credibility through clean presentation.</p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <h3>Next: React + one flagship app</h3>
+              <p>Build a modern React app that looks like a real product: routing, state, reusable components.</p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <h3>Then: Full-stack + deployment</h3>
+              <p>API + database + auth, deployed publicly with a clean README and screenshots.</p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <h3>Finally: AI features</h3>
+              <p>Add AI inside a real app (not a toy): summarize, generate, or assist users inside the product.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">Best way to reach me is email. I respond fast when it’s project-related.</p>
+
+        <div class="contact-grid">
+          <a class="contact-card" href="trevynsanders97@gmail.com">
+            <div class="contact-label">Email</div>
+            <div class="contact-value">trevynsanders97@gmail.com</div>
+          </a>
+
+          <a class="contact-card" href="https://github.com/SharpSanders" target="_blank" rel="noreferrer">
+            <div class="contact-label">GitHub</div>
+            <div class="contact-value">@SharpSanders</div>
+          </a>
+
+          <a class="contact-card" href="https://www.linkedin.com/in/trevyn-sanders-a0797936b" target="_blank" rel="noreferrer">
+            <div class="contact-label">LinkedIn</div>
+            <div class="contact-value">www.linkedin.com/in/trevyn-sanders-a0797936b</div>
+          </a>
+        </div>
+
+        <p class="fineprint">
+          © <span id="year"></span> Trevyn Sanders • Better Endeavors L.L.C.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>

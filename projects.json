@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Tip Calculator",
+    "repo": "https://github.com/SharpSanders/tip-calculator",
+    "live": "https://sharpsanders.github.io/tip-calculator/",
+    "image": "./img/Screenshot-tip-calculator.png",
+    "description": "Advanced bill splitter with presets, tax/service options, rounding, and per-person breakdown.",
+    "tags": ["JavaScript", "Forms", "UX", "Math"]
+  },
+  {
+    "title": "Bug Hunter RPG",
+    "repo": "https://github.com/SharpSanders/rpg-game",
+    "live": "https://sharpsanders.github.io/rpg-game/",
+    "image": "./img/Screenshot-rpg-game.png",
+    "description": "Mini RPG re-theme of the FCC project with modern UI and cleaner UX.",
+    "tags": ["JavaScript", "Game", "DOM", "State"]
+  },
+  {
+    "title": "Todo App (localStorage)",
+    "repo": "https://github.com/SharpSanders/todo-app",
+    "live": "https://sharpsanders.github.io/todo-app/",
+    "image": "./img/Screenshot-todo-app-localStorage.png",
+    "description": "CRUD todo app with localStorage persistence and protection against losing edits.",
+    "tags": ["JavaScript", "localStorage", "CRUD", "DOM"]
+  },
+  {
+    "title": "Calorie Counter",
+    "repo": "https://github.com/SharpSanders/calorie-counter",
+    "live": "https://sharpsanders.github.io/calorie-counter/",
+    "image": "./img/Screenshot-calorie-counter.png",
+    "description": "Track daily calories and exercise with a clean interface and input validation.",
+    "tags": ["JavaScript", "Forms", "Validation"]
+  },
+  {
+    "title": "Music Player",
+    "repo": "https://github.com/SharpSanders/music-player",
+    "live": "https://sharpsanders.github.io/music-player/",
+    "image": "./img/Screenshot-music-player.png",
+    "description": "Playlist controls: play/pause/skip/shuffle/delete/reset with accessible UI patterns.",
+    "tags": ["JavaScript", "UI", "Arrays", "DOM"]
+  },
+  {
+    "title": "Roman Numeral Converter",
+    "repo": "https://github.com/SharpSanders/roman-numeral-converter",
+    "live": "https://sharpsanders.github.io/roman-numeral-converter/",
+    "image": "./img/Screenshot-roman-numeral-converter.png",
+    "description": "Convert 1–3999 with clean validation and polished UI.",
+    "tags": ["JavaScript", "Algorithms", "Validation"]
+  },
+  {
+    "title": "Statistics Calculator",
+    "repo": "https://github.com/SharpSanders/statistics-calculator",
+    "live": "https://sharpsanders.github.io/statistics-calculator/",
+    "image": "./img/Screenshot-statistics-calculator.png",
+    "description": "Mean/median/mode/range/variance/std dev from comma-separated inputs.",
+    "tags": ["JavaScript", "Math", "Arrays"]
+  },
+  {
+    "title": "Product Landing Page",
+    "repo": "https://github.com/SharpSanders/product-landing-page",
+    "live": "https://sharpsanders.github.io/product-landing-page/",
+    "image": "./img/Screenshot-product-landing-page.png",
+    "description": "Responsive landing page for a fictional creator microphone product.",
+    "tags": ["HTML", "CSS", "Responsive"]
+  }
+]
