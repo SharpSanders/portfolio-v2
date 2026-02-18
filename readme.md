@@ -1,83 +1,73 @@
-# Portfolio v2 – Trevyn Sanders
+# Portfolio v2
 
-A clean, responsive developer portfolio built with HTML, CSS, and vanilla JavaScript.  
-This version improves structure, layout clarity, and project presentation over my original portfolio.
+A clean, responsive portfolio website showcasing my best frontend projects.  
+Built with HTML, CSS, and JavaScript and deployed via GitHub Pages.
 
-🔗 **Live Site:**  
+## Live Site
+
 https://sharpsanders.github.io/portfolio-v2/
 
----
+## Screenshot
 
-## 📸 Screenshot
+<img src="./img/Screenshot portfolio-v2.png" alt="Portfolio v2 screenshot">
 
-<img src="./img/Screenshot portfolio-v2.png" alt="Screenshot of Portfolio v2 homepage" />
+## Overview
 
----
+Portfolio v2 is a curated, data-driven portfolio that dynamically renders featured projects from a structured JSON file. It is designed to be:
 
-## 🚀 Features
+- Fast
+- Minimal
+- Easy to maintain
+- Professional in presentation
 
-- Responsive, mobile-first layout
-- Dynamic project rendering from a JSON data file
-- Search and tag filtering system
-- Clean, modern UI with consistent spacing and typography
-- Structured sections: Hero, Projects, Skills, Roadmap, Contact
+The goal is to clearly communicate my frontend capability while building toward full-stack and AI specialization.
+
+## Features
+
+- Responsive layout (mobile-first)
+- Dynamic project rendering from `projects.json`
+- Search functionality
+- Tag filtering
+- Clean card-based UI
+- Structured sections (Hero, Projects, Skills, Roadmap, Contact)
 - GitHub Pages deployment
 
----
-
-## 🧠 What This Demonstrates
-
-- DOM manipulation and dynamic rendering
-- Fetching and parsing JSON data
-- Array filtering and search logic
-- Modular file structure
-- Clean separation of concerns (HTML / CSS / JS)
-- Professional UI/UX layout principles
-
----
-
-## 🛠 Built With
+## Tech Stack
 
 - HTML5
-- CSS3 (Custom properties, Grid, Flexbox)
-- Vanilla JavaScript
-- Git & GitHub
-- GitHub Pages
+- Modern CSS (Flexbox, Grid, custom properties)
+- Vanilla JavaScript (DOM manipulation, filtering logic)
+- Git + GitHub Pages
 
----
+## Architecture
 
-## 📂 Project Structure
+Projects are stored in a separate `projects.json` file.  
+This allows:
 
-portfolio-v2/
-│
-├── index.html
-├── styles.css
-├── script.js
-├── projects.json
-└── img/
-└── Screenshot portfolio-v2.png
+- Easy addition/removal of projects
+- Clean separation of data and UI
+- Scalable updates without editing markup repeatedly
 
+The UI is rendered dynamically using JavaScript to improve maintainability.
 
----
+## What This Project Demonstrates
 
-## 🎯 Purpose
+- Clean UI structure and visual hierarchy
+- DOM-driven rendering
+- Filtering and search logic
+- Scalable frontend architecture without frameworks
+- Deployment workflow using GitHub Pages
 
-This portfolio serves as:
+## Future Improvements
 
-- A central hub for my frontend projects
-- A foundation for future full-stack and AI-integrated work
-- A professional presentation layer for freelance and remote opportunities
+- Dark/light theme toggle
+- Project detail modal view
+- React-based version
+- API-driven GitHub integration
+- Performance optimization pass
 
-I am currently progressing toward React, backend development, and AI integration by May 2026.
+## Author
 
----
-
-## 📬 Contact
-
+Trevyn Sanders  
 GitHub: https://github.com/SharpSanders  
-Portfolio v1: https://sharpsanders.github.io/personal-portfolio-webpage/
-
----
-
-© 2026 Trevyn Sanders  
 Better Endeavors L.L.C.
